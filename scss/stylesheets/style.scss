@@ -1,0 +1,48 @@
+@import './about';
+@import './footer';
+@import './header';
+@import './home';
+@import './portfolio';
+
+body {
+    background-color: #fff;
+    font-size: 26px;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.lazy-image {
+    opacity: 0.1;
+    will-change: opacity;
+    transition: all 0.3s;
+    
+    &--responsive {
+        display: none;
+
+        @media screen and (max-width: 1024px) {
+            display: block;
+            max-width: 100%;
+        }
+    }
+
+    &--main {
+        display: block;
+
+        @media screen and (max-width: 1024px) {
+            display: none;
+        }
+    }
+}
+    
+.loaded {
+    opacity: 1;
+}

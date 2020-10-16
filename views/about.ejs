@@ -1,0 +1,26 @@
+<div class="page-about">
+    <% for(var i=1; i < data.length; i++) { %>
+        
+        <%if (data[i].Headline.length > 0) 
+            { %>
+                <h1 class="page-about__heading">
+                    <%= data[i].Headline %>
+                </h1>
+                
+            <% }
+        %>
+        <%if (data[i].Subheadline.length > 0) 
+            { %>
+                <p class="page-about__subheading"><%- data[i].Subheadline %></p>
+            <% }
+        %>
+        <div class="page-about__content">
+            <div class="page-about__landing-image">
+                <img class="page-about__landing-image--responsive" src="<%= data[i].Images %>"/>
+                <img class="page-about__landing-image--main" src= "<%= data[i].__EMPTY %>"/>
+                <p class="page-about__title"> <%- data[i].__EMPTY_1 %></p>
+                <p class="page-about__description"> <%- data[i].__EMPTY_2 %></p>
+            </div>
+        </div>
+      <% } %>
+</div>

@@ -1,0 +1,61 @@
+.page-portfolio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+    &__heading {
+        font-weight: normal;
+        color: rgb(149,132,85);
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+
+    &__subheading {
+        margin: 0 0 24px 0;
+        padding-bottom: 20px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    &__landing-image {
+        display: inline-block;
+
+        @media screen and (max-width: 1024px) {
+            width: 55%;
+        }
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(237, 237, 237);
+        flex: 1;
+
+        @media screen and (max-width: 1024px) {
+            flex: auto;
+        }
+
+        &--title {
+            background-color: #000;
+            color: #fff;
+            width: 50%;
+            margin: 10px auto;
+            padding: 10px;
+
+            @media screen and (max-width: 1024px) {
+                width: auto;
+            }
+        }
+
+        &--description {
+            margin: 0;
+            font-size: 20px;
+        }
+    }
+}

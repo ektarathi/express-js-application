@@ -1,0 +1,62 @@
+.page-about {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+    &__heading {
+        font-weight: normal;
+        color: rgb(149,132,85);
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+
+    &__subheading {
+        margin: 0 0 24px 0;
+        padding-bottom: 20px;
+    }
+
+    &__content {
+        margin: 10px auto;
+    }
+
+    &__landing-image {
+        display: inline-block;
+
+        @media screen and (max-width: 1024px) {
+            width: 55%;
+        }
+
+        &--responsive {
+            display: none;
+
+            @media screen and (max-width: 1024px) {
+                display: block;
+                max-width: 100%;
+            }
+        }
+
+        &--main {
+            display: block;
+
+            @media screen and (max-width: 1024px) {
+                display: none;
+            }
+        }
+    }
+
+    &__title {
+        margin: 0;
+        padding: 10px;
+        background-color:rgb(191,169,104);
+        text-align: left;
+    }
+
+    &__description {
+        margin: 0;
+        font-size: 20px;
+        padding: 0 10px 10px;
+        background-color:rgb(191,169,104);
+        text-align: left;
+    }
+}

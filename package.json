@@ -1,0 +1,22 @@
+{
+  "name": "web-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "node-sass-middleware": "^0.11.0",
+    "xlsx": "^0.16.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
