@@ -12,7 +12,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any errors in the console.
 
-### Project Highlights
+## Project Highlights
 
 1) Installed following npm modules for making the application run:
     i) xslx for reading the xslx files.
