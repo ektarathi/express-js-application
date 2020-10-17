@@ -12,7 +12,9 @@
     margin: 0 0 24px 0;
     padding-bottom: 20px; }
   .page-about__content {
-    margin: 10px auto; }
+    margin: 10px auto 25px; }
+    .page-about__content:last-child {
+      margin-bottom: 0; }
   .page-about__landing-image {
     display: inline-block; }
     @media screen and (max-width: 1024px) {
@@ -45,7 +47,7 @@
   display: flex;
   justify-content: center;
   color: #000;
-  margin-top: 15px; }
+  margin: 15px 0; }
 
 .header-fixed {
   background-color: #262626;

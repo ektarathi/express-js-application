@@ -17,7 +17,11 @@
     }
 
     &__content {
-        margin: 10px auto;
+        margin: 10px auto 25px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     &__landing-image {
