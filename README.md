@@ -24,6 +24,13 @@ You will also see any errors in the console.
 
 ## Gatsby Question and Answers
 1) Can you explain what GatsbyJS is and what the benefits of using it are?
+    * Gatsby is a React-based, GraphQL powered, static site generator for creating websites and apps.
+    * Benefits of using Gatsby are:
+        * Gatsby sites are 2-3 times faster than similar types of sites. The framework improves the performance issues which we face while developing website/web application by using ### `PRPL` architectural pattern.
+        * We can PWA apps using Gatsby
+        * Gatsby uses GraphQL querying language to get data from anywhere.
+        * We can hook into common CMS’s like WordPress and other headless CMS, as well as even just a CSV file.
+        * A rich plugin ecosystem.
 
 2) Can you explain how you would get the data from WordPress to GatsbyJS?
     * Before making your project work with fetching data from Wordpress website, we have to first install Gatsby making sure that the project runs successfully.Commands used for setting up the project with Gatsby are:
@@ -43,7 +50,7 @@ You will also see any errors in the console.
 
 4) What is a PRPL?
     * PRPL stands for:
-        Push
-        Render
-        Pre-cache
-        Lazy-load
+        * Push
+        * Render
+        * Pre-cache
+        * Lazy-load
