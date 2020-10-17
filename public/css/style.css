@@ -44,7 +44,8 @@
 .footer {
   display: flex;
   justify-content: center;
-  color: #000; }
+  color: #000;
+  margin-top: 15px; }
 
 .header-fixed {
   background-color: #262626;
