@@ -7,7 +7,7 @@
     font-weight: normal;
     color: #958455;
     font-size: 35px;
-    padding-bottom: 20px; }
+    padding-bottom: 5px; }
   .page-about__subheading {
     margin: 0 0 24px 0;
     padding-bottom: 20px; }
@@ -88,7 +88,7 @@
     font-weight: normal;
     color: #958455;
     font-size: 35px;
-    padding-bottom: 20px; }
+    padding-bottom: 5px; }
   .page-home p {
     margin: 0 0 24px 0;
     padding-bottom: 20px; }
@@ -118,7 +118,11 @@
       margin-left: 10px;
       border: 0;
       margin-top: 20px;
-      cursor: pointer; }
+      cursor: pointer;
+      font-size: 18px; }
+      .page-home__controls--bottom:hover, .page-home__controls--bottom:active {
+        background-color: #958455;
+        color: #000; }
 
 .page-portfolio {
   display: flex;
@@ -129,7 +133,7 @@
     font-weight: normal;
     color: #958455;
     font-size: 35px;
-    padding-bottom: 20px; }
+    padding-bottom: 5px; }
   .page-portfolio__subheading {
     margin: 0 0 24px 0;
     padding-bottom: 20px; }
