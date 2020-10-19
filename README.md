@@ -12,6 +12,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any errors in the console.
 
+## Project Structure
+1) The code for defining the routes and external npm modules is kept inside **index.js**.
+2) The **css** file is kept inside **public/css** folder and the **js** file is kept inside **public/js**.
+3) The **scss folder** contained all the stylesheet(.scss) files.
+4) The **css classes** are named based on BEM Methodology.
+5) The **views folder** contain the .ejs templates for displaying the content on the browser.
+
 ## Project Highlights
 
 1) Installed following npm modules for making the application run:
@@ -21,6 +28,7 @@ You will also see any errors in the console.
     * nodemon for monitoring changes in the application.
 2) Implemented onClick functionality on the Homepage buttons.
 3) Lazy loading for the images on Portfolio page is implemented inside script.js
+
 
 ## Gatsby Question and Answers
 1) Can you explain what GatsbyJS is and what the benefits of using it are?
