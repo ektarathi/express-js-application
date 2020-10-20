@@ -16,12 +16,12 @@
         %>
         <div class="page-portfolio__content">
             <div class="page-portfolio__landing-image">
-                <img class="lazy-image lazy-image--responsive" data-src="<%= data[i].Images %>"/>
-                <img class=" lazy-image lazy-image--main" data-src= "<%= data[i].__EMPTY %>"/>
+                <img class="lazy-image lazy-image--responsive" data-src="<%= data[i].Mobileurl %>"/>
+                <img class=" lazy-image lazy-image--main" data-src= "<%= data[i].Desktopurl %>"/>
             </div>
             <div class="page-portfolio__text">
-                <p class="page-portfolio__text--title"> <%- data[i].__EMPTY_1 %></p>
-                <p class="page-portfolio__text--description"> <%- data[i].__EMPTY_2 %></p>
+                <p class="page-portfolio__text--title"> <%- data[i].title %></p>
+                <p class="page-portfolio__text--description"> <%- data[i].description %></p>
             </div>
         </div>
       <% } %>
